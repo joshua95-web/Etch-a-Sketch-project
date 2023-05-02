@@ -1,35 +1,6 @@
 const grid = document.createElement("div");
 
-const gridCell1 = document.createElement("div");
-const gridCell2 = document.createElement("div");
-const gridCell3 = document.createElement("div");
-const gridCell4 = document.createElement("div");
-const gridCell5 = document.createElement("div");
-const gridCell6 = document.createElement("div");
-const gridCell7 = document.createElement("div");
-const gridCell8 = document.createElement("div");
-const gridCell9 = document.createElement("div");
-const gridCell10 = document.createElement("div");
-const gridCell11 = document.createElement("div");
-const gridCell12 = document.createElement("div");
-const gridCell13 = document.createElement("div");
-const gridCell14 = document.createElement("div");
-const gridCell15 = document.createElement("div");
-const gridCell16 = document.createElement("div");
-
-grid.appendChild(gridCell1);
-grid.appendChild(gridCell2);
-grid.appendChild(gridCell3);
-grid.appendChild(gridCell4);
-grid.appendChild(gridCell5);
-grid.appendChild(gridCell6);
-grid.appendChild(gridCell7);
-grid.appendChild(gridCell8);
-grid.appendChild(gridCell9);
-grid.appendChild(gridCell10);
-grid.appendChild(gridCell11);
-grid.appendChild(gridCell12);
-grid.appendChild(gridCell13);
-grid.appendChild(gridCell14);
-grid.appendChild(gridCell15);
-grid.appendChild(gridCell16);
+function makeRows(rows, cols) {
+    grid.style.setProperty("grid-rows", rows);
+    grid.style.setProperty("grid-cols", cols);
+}
