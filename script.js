@@ -10,3 +10,5 @@ function makeRows(rows, cols) {
 };
 
 makeRows(16,16);
+
+grid.style.borderColor = "solid red";
