@@ -1,0 +1,9 @@
+:root {
+    --grid-cols: 1;
+    --grid-cols: 1;
+}
+
+#gridContainer {
+    display: grid;
+    grid-gap: 1em;
+}
