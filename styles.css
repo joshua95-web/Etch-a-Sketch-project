@@ -10,6 +10,8 @@
 
 .grid-item {
     background-color: rgb(255, 255, 255);
+    height: 9rem;
+    width: 9rem;
     padding: 50px;
     border: solid rgb(255, 94, 0);
     text-align: center;
