@@ -1,17 +1,18 @@
 .gridContainer {
-    width: 90rem;
-    height: 80rem;
+    width: 55rem;
+    height: 50rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .grid-item {
     display: flex;
     background-color: rgb(255, 255, 255);
-    height: 5rem;
-    width: 5rem;
-    border: solid rgb(255, 94, 0);
+    height: 3rem;
+    width: 3rem;
+    border: solid rgb(255, 123, 0);
     text-align: center;
     justify-content: center;
     align-items: center;
