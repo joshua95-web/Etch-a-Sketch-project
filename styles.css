@@ -24,6 +24,6 @@
     margin: 0;
 }
 
-div:hover {
+.grid-item:hover {
     background-color: black;
 }
