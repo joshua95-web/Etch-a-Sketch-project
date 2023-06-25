@@ -1,6 +1,6 @@
 .gridContainer {
-    width: 45rem;
-    height: 35rem;
+    width: 90rem;
+    height: 80rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -9,8 +9,8 @@
 .grid-item {
     display: flex;
     background-color: rgb(255, 255, 255);
-    height: 9rem;
-    width: 9rem;
+    height: 5rem;
+    width: 5rem;
     border: solid rgb(255, 94, 0);
     text-align: center;
     justify-content: center;
