@@ -23,3 +23,7 @@
     align-items: center;
     margin: 0;
 }
+
+div:hover {
+    background-color: black;
+}
