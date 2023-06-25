@@ -1,11 +1,13 @@
 const cells = document.getElementsByClassName("grid-item");
 
-item.addEventListener("mouseover", hoverColour, false);
-item.addEventListener("mouseout", colourReturn, false);
+cells.addEventListener("onmouseover", hoverColour);
+cells.addEventListener("onmouseleave", colourReturn);
+
+
 function hoverColour() {
-    item.setAttribute("style", "background-color:black;")
+    cells.setAttribute("style", "background-color:black;")
 }
 
 function colourReturn() {
-    item.setAttribute("style", "background-color:white;")
+    cells.setAttribute("style", "background-color:white;")
 }
