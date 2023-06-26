@@ -1,13 +1,13 @@
-const cells = document.getElementsByClassName("grid-item");
-
-cells.addEventListener("onmouseover", hoverColour);
-cells.addEventListener("onmouseleave", colourReturn);
-
+// const cells = window.getElementsByClassName("gridContainer");
 
 function hoverColour() {
-    cells.setAttribute("style", "background-color:black;")
+    document.body.style.backgroundColor = 'black';
 }
 
 function colourReturn() {
     cells.setAttribute("style", "background-color:white;")
 }
+
+
+cells.addEventListener("onmouseover", hoverColour());
+cells.addEventListener("onmouseleave", colourReturn());
