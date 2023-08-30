@@ -1,4 +1,4 @@
-// const cells = window.getElementsByClassName("gridContainer");
+const tiles = document.querySelectorAll('.grid-item')
 
 function hoverColour() {
     document.body.style.backgroundColor = 'black';
