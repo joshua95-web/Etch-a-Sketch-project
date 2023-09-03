@@ -9,5 +9,5 @@ function colourReturn() {
 }
 
 
-cells.addEventListener("onmouseover", hoverColour());
-cells.addEventListener("onmouseleave", colourReturn());
+/*cells.addEventListener("onmouseover", hoverColour());
+cells.addEventListener("onmouseleave", colourReturn());*/
